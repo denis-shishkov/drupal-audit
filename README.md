@@ -1,12 +1,12 @@
 #Audit of drupal applications
 
 ##Audit types:
-* **Acquisition audit.** Acquisition audit Generally done before the decision to buy a business A part of the ‘due diligence’ process Usually done to smaller startups who base their business to a web site / web service Typically more in-depth Focuses on whatever business plans there are for the system.
-* **Implementation verification audit.** A customer want to validate their vendor’s work on their Drupal system Usually pretty brief, done in collaboration with the implementing vendor Shouldn’t ever be done for a system that’s not ﬁnished, unless it’s a strict architecture audit Usually the client isn’t expecting major problems to be found.
-* **Vendor management audit.** Vendor management audit is usually done to either switch vendors or due to problems with the current vendor Usually done without the knowledge of the current vendor, thus done usually with limited documentation and/or information Might be either very brief or very profound audit Client expects to ﬁnd problems in the implementation
-* **Support audit.**  A very brief audit done to move the system to be supported by the auditing partner These are done with minimal resources, but must be done well, because the vendor carries all the risks The only type of audit where the auditing consultant can learn from the experience, as all the details will be revealed in the longer run
+* **Acquisition audit.** Acquisition audit generally done before the decision to buy a business. A part of the ‘due diligence’ process. Usually done to smaller startups who base their business to a web site / web service. Typically more in-depth. Focuses on whatever business plans there are for the system.
+* **Implementation verification audit.** A customer want to validate their vendor’s work on their Drupal system. Usually pretty brief, done in collaboration with the implementing vendor. Shouldn’t ever be done for a system that’s not finished, unless it’s a strict architecture audit. Usually the client isn’t expecting major problems to be found.
+* **Vendor management audit.** Vendor management audit is usually done to either switch vendors or due to problems with the current vendor. Usually done without the knowledge of the current vendor, thus done usually with limited documentation and/or information. Might be either very brief or very profound audit. Client expects to ﬁnd problems in the implementation.
+* **Support audit.**  A very brief audit done to move the system to be supported by the auditing partner. These are done with minimal resources, but must be done well, because the vendor carries all the risks. The only type of audit where the auditing consultant can learn from the experience, as all the details will be revealed in the longer run.
 
-##Steps:
+## Steps:
 * Read the NDA
 * Get code and DB-dump (obfuscated)
 * Get all access, (production if possible)
@@ -61,17 +61,21 @@
 ## Maintainability
 * Where is code
 * Where is logs
+
 ## Development workflow
 * Git strategy
 * Defects strategy
+
 ## Deployment workflow
 * CI/CD
 * Content staging
 * Features, update scripts
 * Post install hooks (clear cache, features revert, updates, etc...)
+
 ## Tests
 * Unit tests
 * Automation
+
 ## Security audit
   * Security review module
   * Security update
@@ -97,8 +101,11 @@
 * Custom theme
 * JS and CSS analysis
 * Coder module, code sniffers (use them only for custom modules)
+
 ## Longevity of deployed modules
+
 ## Core integrity
+
 ## General architecture and contrib modules selection
   * Justified functionality
   * Misusage contribs
@@ -108,17 +115,23 @@
   * Integration with 3rd parties
   * Multisite configuration
   * Language configuration
+
 ## Content and data modelling
   * Content types
   * Terms
   * Entities
   * Users
   * Fields and relations
+
 ## SEO
 * Seo audit module
+
 ## Accessibility
+
 ## Custom modules code review
+
 ## Features and code encapsulation
+
 ## Site configuration
 
 ## A basic site audit does not include:
@@ -140,5 +153,5 @@ Improve security to steer clear from trouble and avoid painful loss of face.
 Improve code quality to reduce maintenance costs and make future integration faster and more cost effectif.
 
 
-##Who can do an audit?
-The person doing the audit needs to be a real expert In Drupal audits, Drupal skills are not enough: the person needs to have rock-solid programming skills, especially in PHP Also, experience in integrations, high-performance and security is hugely beneﬁcial
+## Who can do an audit?
+The person doing the audit needs to be a real expert In Drupal audits, Drupal skills are not enough: the person needs to have rock-solid programming skills, especially in PHP. Also, experience in integrations, high-performance and security is hugely beneﬁcial.
