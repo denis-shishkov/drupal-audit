@@ -16,6 +16,7 @@
 * Read the code (focus on cutom only). Beginers mistakes, security holes, performance problems.
 * Social engeneering (talk to original site developers if possible)
 * Test performance
+* Use monitoring tools
 
 ## Performance and scalability audit
   * Site audit module
@@ -58,8 +59,19 @@
   
 
 ## Maintainability
+* Where is code
+* Where is logs
 ## Development workflow
+* Git strategy
+* Defects strategy
 ## Deployment workflow
+* CI/CD
+* Content staging
+* Features, update scripts
+* Post install hooks (clear cache, features revert, updates, etc...)
+## Tests
+* Unit tests
+* Automation
 ## Security audit
   * Security review module
   * Security update
@@ -84,6 +96,7 @@
 * Custom modules
 * Custom theme
 * JS and CSS analysis
+* Coder module, code sniffers (use them only for custom modules)
 ## Longevity of deployed modules
 ## Core integrity
 ## General architecture and contrib modules selection
