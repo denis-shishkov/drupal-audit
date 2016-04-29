@@ -11,7 +11,7 @@
 * Get code and DB-dump (obfuscated)
 * Get all access, (production if possible)
 * Install the site 
-* Get other configs (varnish, db, apache etc...)
+* Get other configs (varnish, db, apache, etc...)
 * Look at the architecture
 * Read the code (focus on cutom only). Beginers mistakes, security holes, performance problems.
 * Social engeneering (talk to original site developers if possible)
@@ -147,11 +147,5 @@
   * How to improve security.
   * How to improve code quality.
 
-## Improve
-Improve performance to improve overal user satisfaction, this results in more visits, more interaction, more leads, more conversion, more sales.
-Improve security to steer clear from trouble and avoid painful loss of face.
-Improve code quality to reduce maintenance costs and make future integration faster and more cost effectif.
-
-
 ## Who can do an audit?
-The person doing the audit needs to be a real expert In Drupal audits, Drupal skills are not enough: the person needs to have rock-solid programming skills, especially in PHP. Also, experience in integrations, high-performance and security is hugely beneﬁcial.
+The person doing the audit needs to be a real expert in Drupal, but Drupal only skills are not enough: the person needs to have rock-solid programming skills, especially in PHP. Also, experience in integrations, performance optimization and security is hugely beneficial. In some cases it is neccessary to include a system administrator to audit the production enviroement.
