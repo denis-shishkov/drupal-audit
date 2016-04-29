@@ -77,7 +77,7 @@
 * Automation
 
 ## Security audit
-  * Security review module
+  * [Security review module][security_review]
   * Security update
   * Hacked
   * User rorles and permissions
@@ -133,6 +133,9 @@
 ## Features and code encapsulation
 
 ## Site configuration
+ * Cron jobs
+ * Devel modules
+ * Errors and warnings
 
 ## A basic site audit does not include:
   * full security audit for code vulnerabilities
@@ -149,3 +152,5 @@
 
 ## Who can do an audit?
 The person doing the audit needs to be a real expert in Drupal, but Drupal only skills are not enough: the person needs to have rock-solid programming skills, especially in PHP. Also, experience in integrations, performance optimization and security is hugely beneficial. In some cases it is neccessary to include a system administrator to audit the production enviroement.
+
+[security_review]: <https://www.drupal.org/project/security_review>
